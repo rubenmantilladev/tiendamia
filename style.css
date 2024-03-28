@@ -66,13 +66,13 @@ nav {
 
   li > a {
     text-decoration: none;  /* Para quitar el subrayado de la etiqueta "<a></a>" */
-    font-size: 1rem;
-    font-weight: bold;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem; /* Tamaño de letra */
+    font-weight: bold; /* Para darle negrita a la letra */
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /* Tipo de letra */
     border-bottom: 1px solid transparent;
     color: #fff;
 
-    &:hover {
+    &:hover { /* Para darle estilos cuando el cursor de mouse esté sobre el elemento "<a></a>" */
       border-bottom-color: #fff;
     }
   }
